@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #fffaf0;
+    color: #333;
+}
+
+header {
+    background-color: #d3722e;
+    color: white;
+    padding: 20px;
+    margin: -20px -20px 20px -20px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 28px;
+}
+
+h2 {
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+/* --- Filter Buttons Styling --- */
+#filters_screen {
+    margin-bottom: 20px;
+}
+
+.filter {
+    background-color: #d3722e; /* Inactive color */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-right: 10px;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.filter:hover {
+    opacity: 0.9;
+}
+
+.filter.active {
+    background-color: #fac471; /* Active/Selected color */
+    color: #333;
+}
